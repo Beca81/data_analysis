@@ -1,2 +1,2 @@
 # data_analysis
-Analysis of data with detailed clarification of every example
+https://brankicajovanovic81.wordpress.com/analysis-of-data/
