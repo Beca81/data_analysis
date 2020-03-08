@@ -57,13 +57,13 @@ def interpret_corrcoef(value):
         print ('error')
         
 # correlation
-personRResult=scipy.stats.pearsonr(avg_fahrenheit, death_abs)      
-interpret_corrcoef(personRResult[0])
+personScoreFahrDeathAbs=scipy.stats.pearsonr(avg_fahrenheit, death_abs)      
+interpret_corrcoef(personScoreFahrDeathAbs[0])
 sns.regplot( data=merged, x='avg_fahrenheit', y='death_abs')
 
 # correlation
-personRResult1=scipy.stats.pearsonr(avg_fahrenheit, death_rate)      
-interpret_corrcoef(personRResult1[0])
-plt.figure(); # create new window / blank chart
+personScoreFahrDeathRate=scipy.stats.pearsonr(avg_fahrenheit, death_rate)      
+interpret_corrcoef(personScoreFahrDeathRate[0])
+plt.figure() # create new window / blank chart
 sns.regplot( data=merged, x='avg_fahrenheit', y='death_rate')
 
