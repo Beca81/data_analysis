@@ -20,7 +20,7 @@ pneum = pd.read_csv('flu_pneumonia.CSV')
 merged = pd.merge(temp, pneum, on="state", how="inner")
 
 
-#Convert Celsius to Fahr --> Return Celsius conversion of input
+#Convert Celsius to Fahrenhait --> Return Celsius conversion of input
 def celsius_to_fahr(temp_celsius):
     temp_fahr = 9/5*temp_celsius + 32
     return temp_fahr
