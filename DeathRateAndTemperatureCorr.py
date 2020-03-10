@@ -62,17 +62,21 @@ avg_fahrenheit = merged.iloc[:, 4].values   #dependent variable vector
 #plot --> correlation between the number of deaths-absolute associated with influenza and the average temperature
 # --> returns - rfloat(Pearson’s correlation coefficient) in [0] column and
 # p-valuefloat(two-tailed p-value) in [1] column
-personScoreFahrDeathAbs=scipy.stats.pearsonr(avg_fahrenheit, death_abs) 
+personScoreFahrDeathAbs=scipy.stats.pearsonr(avg_fahrenheit, death_abs)
+print('Correlation between the number of deaths-absolute associated with influenza and the average temperature')
 #we take [0] column - rfloat(Pearson’s correlation coefficient)     
 interpret_corrcoef(personScoreFahrDeathAbs[0])
 plt.title('Correlation between the number of deaths-absolute associated with influenza and the average temperature')
+
 sns.regplot( data=merged, x='avg_fahrenheit', y='death_abs')
 
 #plot --> correlation between the number of deaths-rate associated with influenza and the average temperature
-personScoreFahrDeathRate=scipy.stats.pearsonr(avg_fahrenheit, death_rate)      
+personScoreFahrDeathRate=scipy.stats.pearsonr(avg_fahrenheit, death_rate)
+print('Correlation between the number of deaths-rate associated with influenza and the average temperature')     
 interpret_corrcoef(personScoreFahrDeathRate[0])
 plt.figure() # create new window / blank chart
 plt.title('Correlation between the number of deaths-rate associated with influenza and the average temperature')
+
 sns.regplot( data=merged, x='avg_fahrenheit', y='death_rate')
 
 plt.show()
