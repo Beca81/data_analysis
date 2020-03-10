@@ -1,11 +1,12 @@
-#**Analysis of data**
+<h1>**Analysis of data**</h1>
 
-###**Analysis of correlation between temperature and influenza**
+<h3>**Analysis of correlation between temperature and influenza**</h3>
 
 
 <p align="center">
 <img src="images/flu.jpg">
 </p>
+
 Influenza (flu) viruses can be detected year-round in the United States. But historical data from the CDC has evidence that there is a seasonal component in the spread of the disease, being much more common during the fall and winter.
 
 CDC stands for Center for Disease Control and Prevention. It is one of the major operating components of the Department of Health and Human Services of the United States.
@@ -24,7 +25,7 @@ Disclaimer:
     Death rate is the number of deaths by 100,000 of population;
     The average temperature is an estimate roughly calculated to this case study;
 
-**My observation:**
+<p align="center">**My observation:**</p>
 
 When I merged two tables, I created a function that receives a temperature in Celsius and converts it to Fahrenheit and add new row – avg.Fahrenheit. 
 
@@ -43,7 +44,7 @@ The outcome was :
 <p align="center">
 <img src="images/Figure_2.png">
 </p>
-
+</br>
 Conclusion:
 
 There is **no statistically significant correlation** between the number of deaths and the average temperature, so the cold is not responsible for you to get sick.
