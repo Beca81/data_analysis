@@ -1,6 +1,6 @@
-<h1>**Analysis of data**</h1>
+<h1 align="center"><b>Analysis of data</b></h1>
 
-<h3>**Analysis of correlation between temperature and influenza**</h3>
+<h3 align="center"><b>Analysis of correlation between temperature and influenza</b></h3>
 
 
 <p align="center">
@@ -25,7 +25,7 @@ Disclaimer:
     Death rate is the number of deaths by 100,000 of population;
     The average temperature is an estimate roughly calculated to this case study;
 
-<p align="center">**My observation:**</p>
+<p align="center"><b>My observation:</b></p>
 
 When I merged two tables, I created a function that receives a temperature in Celsius and converts it to Fahrenheit and add new row – avg.Fahrenheit. 
 
@@ -45,7 +45,7 @@ The outcome was :
 <img src="images/Figure_2.png">
 </p>
 </br>
-Conclusion:
+<b>Conclusion:</b>
 
 There is **no statistically significant correlation** between the number of deaths and the average temperature, so the cold is not responsible for you to get sick.
 
