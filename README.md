@@ -47,26 +47,5 @@ Conclusion:
 There is **no statistically significant correlation** between the number of deaths and the average temperature, so the cold is not responsible for you to get sick.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # data_analysis
 https://brankicajovanovic81.wordpress.com/analysis-of-data/
